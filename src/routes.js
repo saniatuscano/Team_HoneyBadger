@@ -96,27 +96,7 @@ export const common_routes=[
     route: "*",
     component: <Page404 />,
   },
-// {
-//   key:'transfer',
-//   route:'/transfer',
-//   component:<Transfer/>
-// },
-// {
-//   type:'collapse',
-//   name:'Transfer',
-//   key:'transfermode',
-//   route:'/transfermode',
-//   icon: <Icon fontSize="small">money</Icon>,
-//   component:<TransferMode/>
-// },
-// {
-//   type:'collapse',
-//   name:'History',
-//   key:'History',
-//   icon: <Icon fontSize="small">history</Icon>,
-//   route:'/transferhistory',
-//   component:<TransferHistory/>
-// },
+
 {
   key:'masio',
   route:'/masio',
@@ -164,24 +144,24 @@ export const routes_admin = [
     component: <DisasterReport />,
   },
   
-  {
-    type: "collapse",
-    name: "Verify Volunteers",
-    key: "verify vol",
-    icon: <Icon fontSize="small">check</Icon>,
-    route: "/verifyvol",
-    component: <VerifyVolunteersAdmin />,
+  // {
+  //   type: "collapse",
+  //   name: "Verify Volunteers",
+  //   key: "verify vol",
+  //   icon: <Icon fontSize="small">check</Icon>,
+  //   route: "/verifyvol",
+  //   component: <VerifyVolunteersAdmin />,
 
 
-  },
-  {
-    type: "collapse",
-    name: "Verify Ngo",
-    key: "verify ngo",
-    icon: <Icon fontSize="small">check</Icon>,
-    route: "/verifyngo",
-    component: <VerifyNgo />,
-  },
+  // },
+  // {
+  //   type: "collapse",
+  //   name: "Verify Ngo",
+  //   key: "verify ngo",
+  //   icon: <Icon fontSize="small">check</Icon>,
+  //   route: "/verifyngo",
+  //   component: <VerifyNgo />,
+  // },
   {
     type: "collapse",
     name: "Campaign details",
@@ -202,22 +182,22 @@ export const routes_vol = [
     route: "/Volunteer/dashboard",
     component: <VolDashboard />,
   },
-  {
-    type: "collapse",
-    name: "Tasks",
-    key: "voltables",
-    icon: <Icon fontSize="small">task</Icon>,
-    route: "/Volunteer/vol-tables",
-    component: <VolTables />,
-  },
-  {
-    type: "collapse",
-    name: "Completed Tasks",
-    key: "voltables",
-    icon: <Icon fontSize="small">task</Icon>,
-    route: "/Volunteer/CompletedTasks",
-    component: <Tables />,
-  },
+  // {
+  //   type: "collapse",
+  //   name: "Tasks",
+  //   key: "voltables",
+  //   icon: <Icon fontSize="small">task</Icon>,
+  //   route: "/Volunteer/vol-tables",
+  //   component: <VolTables />,
+  // },
+  // {
+  //   type: "collapse",
+  //   name: "Completed Tasks",
+  //   key: "voltables",
+  //   icon: <Icon fontSize="small">task</Icon>,
+  //   route: "/Volunteer/CompletedTasks",
+  //   component: <Tables />,
+  // },
   {
     type: "collapse",
     name: "Leaderboard",
@@ -311,23 +291,23 @@ export const routes_ngo = [
     route: "/ngo/demand",
     component: <DemandReports />,
   },
-  {
-    type: "collapse",
-    name: "Create report",
-    key: "DemandReport",
-    icon: <Icon fontSize="small">report</Icon>,
-    route: "/ngo/createdemandreport",
-    component: <Demand />,
-  },
+  // {
+  //   type: "collapse",
+  //   name: "Create report",
+  //   key: "DemandReport",
+  //   icon: <Icon fontSize="small">report</Icon>,
+  //   route: "/ngo/createdemandreport",
+  //   component: <Demand />,
+  // },
 
-  {
-    type: "collapse",
-    name: "Tasks",
-    key: "tasks",
-    icon: <Icon fontSize="small">report</Icon>,
-    route: "/ngo/campaign",
-    component: <CampaignDetails/>
-  },
+  // {
+  //   type: "collapse",
+  //   name: "Tasks",
+  //   key: "tasks",
+  //   icon: <Icon fontSize="small">report</Icon>,
+  //   route: "/ngo/campaign",
+  //   component: <CampaignDetails/>
+  // },
   {
     type: "collapse",
     name: "Item status",
@@ -336,14 +316,14 @@ export const routes_ngo = [
     route: "/ngo/itemStatus",
     component: <ItemStatus/>
   },
-  // {
-  //   type:'collapse',
-  //   name: "create campaign",
-  //   key: "create campaign",
-  //   icon: <Icon fontSize="small">report</Icon>,
-  //   route: "/ngo/campaigncreate",
-  //   component: <CreateCampaign/>
-  // },
+  {
+    type:'collapse',
+    name: "create campaign",
+    key: "create campaign",
+    icon: <Icon fontSize="small">report</Icon>,
+    route: "/ngo/campaigncreate",
+    component: <CreateCampaign/>
+  },
   {
     
     name: "Tracking",

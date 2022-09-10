@@ -43,7 +43,7 @@ import {
 import brandWhite from "assets/images/logo-ct.png";
 import brandDark from "assets/images/logo-ct-dark.png";
 import Home from "layouts/home";
-// import {useSelector} from 'react-redux'
+
 
 
 export default function App() {

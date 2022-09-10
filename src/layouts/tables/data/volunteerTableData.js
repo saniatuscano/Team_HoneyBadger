@@ -52,8 +52,8 @@ export default function data() {
   return {
     columns: [
       { Header: "name", accessor: "name", width: "45%", align: "left" },
-      { Header: "type", accessor: "type", align: "left" },
-      { Header: "verify", accessor: "verify", align: "center" },
+      
+      { Header: "status", accessor: "status", align: "center" },
       { Header: "contact", accessor: "contact", align: "center" },
       { Header: "documents", accessor: "documents", align: "center" },
     ],
@@ -61,11 +61,9 @@ export default function data() {
     rows: [
       {
         name: <Author image={team2} name="John Michael" email="john@creative-tim.com" />,
-        type: <Job title="Manager" description="Organization" />,
-        verify: (
-          // <MDBox ml={-1}>
-          //   <MDBadge badgeContent="online" color="success" variant="gradient" size="sm" />
-          // </MDBox>
+        
+        status: (
+          
           <MDTypography component="a" href="#" variant="caption" color="info" fontWeight="medium">
             Verify
           </MDTypography>
@@ -82,38 +80,37 @@ export default function data() {
         ),
       },
       {
-        name: <Author image={team3} name="Alexa Liras" email="alexa@creative-tim.com" />,
-        type: <Job title="Programator" description="Developer" />,
-        verify: (
+        name: <Author image={team2} name="John Michael" email="john@creative-tim.com" />,
+        
+        status: (
+          
           <MDTypography component="a" href="#" variant="caption" color="info" fontWeight="medium">
             Verify
           </MDTypography>
         ),
         contact: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            11/01/19
+            1234567890
           </MDTypography>
         ),
         documents: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            view
+            View
           </MDTypography>
         ),
       },
       {
-        name: <Author image={team4} name="Laurent Perrier" email="laurent@creative-tim.com" />,
-        type: <Job title="Executive" description="Projects" />,
-        verify: (
-          // <MDBox ml={-1}>
-          //   <MDBadge badgeContent="online" color="success" variant="gradient" size="sm" />
-          // </MDBox>
+        name: <Author image={team2} name="John Michael" email="john@creative-tim.com" />,
+        
+        status: (
+          
           <MDTypography component="a" href="#" variant="caption" color="success" fontWeight="medium">
             verified
           </MDTypography>
         ),
         contact: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            19/09/17
+            1234567890
           </MDTypography>
         ),
         documents: (
@@ -123,54 +120,17 @@ export default function data() {
         ),
       },
       {
-        name: <Author image={team3} name="Michael Levi" email="michael@creative-tim.com" />,
-        type: <Job title="Programator" description="Developer" />,
-        verify: (
-          <MDTypography component="a" href="#" variant="caption" color="success" fontWeight="medium">
-          verified
-          </MDTypography>
-        ),
-        contact: (
-          <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            24/12/08
-          </MDTypography>
-        ),
-        documents: (
-          <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            View
-          </MDTypography>
-        ),
-      },
-      {
-        name: <Author image={team3} name="Richard Gran" email="richard@creative-tim.com" />,
-        type: <Job title="Manager" description="Executive" />,
-        verify: (
-          <MDTypography component="a" href="#" variant="caption" color="success" fontWeight="medium">
-          verified
-          </MDTypography>
-        ),
-        contact: (
-          <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            04/10/21
-          </MDTypography>
-        ),
-        documents: (
-          <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            View
-          </MDTypography>
-        ),
-      },
-      {
-        name: <Author image={team4} name="Miriam Eric" email="miriam@creative-tim.com" />,
-        type: <Job title="Programator" description="Developer" />,
-        verify: (
+        name: <Author image={team2} name="John Michael" email="john@creative-tim.com" />,
+        
+        status: (
+          
           <MDTypography component="a" href="#" variant="caption" color="error" fontWeight="medium">
-          rejected
+            rejected
           </MDTypography>
         ),
-       contact: (
+        contact: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            14/09/20
+            1234567890
           </MDTypography>
         ),
         documents: (
@@ -179,6 +139,8 @@ export default function data() {
           </MDTypography>
         ),
       },
+
+     
     ],
   };
 }
