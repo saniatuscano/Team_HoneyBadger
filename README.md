@@ -2,6 +2,8 @@
 
 ## HackOdisha 2.0
 
+(Note : 'sakshi' is our main branch. Due to time constraints we forgot to merge the branch into master)
+
 <a href="https://www.canva.com/design/DAFL4ws390g/Mxdw9iMu_W43r7w4MDiMig/view?utm_content=DAFL4ws390g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">CLICK TO VIEW PPT</a><br/>
 
 <a href="https://www.canva.com/design/DAFL7t3k3us/xI47u0r7YSQWtYwPP61vTQ/watch?utm_content=DAFL7t3k3us&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">CLICK TO VIEW VIDEO</a><br/>
