@@ -1,7 +1,8 @@
 # Team HoneyBadgers
 
-
 ## HackOdisha 2.0
+
+<a href="https://www.canva.com/design/DAFL4ws390g/Mxdw9iMu_W43r7w4MDiMig/view?utm_content=DAFL4ws390g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">CLICK TO VIEW PPT</a><br/>
 
 ## Technologies used : 
 #### <ins>React</ins> is a JavaScript library for building user interfaces.React is used to build single-page applications.React allows us to create reusable UI components.
