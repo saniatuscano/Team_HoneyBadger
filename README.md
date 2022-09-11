@@ -14,7 +14,7 @@
 #### <ins>Ganache</ins> is a personal blockchain for rapid Ethereum and Corda distributed application development.
 #### <ins>MetaMask</ins> is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications.
 #### <ins>Truffle</ins> is a one-stop solution for building DApps: Compiling Contracts, Deploying Contracts, Injecting it into a web app, etc.
-#### <ins>The InterPlanetary File System</ins> is a protocol and peer-to-peer network for storing and sharing data in a distributed file system
+#### <ins>The InterPlanetary File System</ins> (IPFS)is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. We have used IPFS to store all the documents of the organisations and all the documents of the volunteers. All any images that are to be stored on our system is stored on IPFS
 #### <ins>Web3</ins> is an idea for a new iteration of the World Wide Web based on blockchain technology, which incorporates concepts including decentralization and token-based economics.
 
 ## Landing Page
