@@ -13,15 +13,15 @@
 #### <ins>The InterPlanetary File System</ins> is a protocol and peer-to-peer network for storing and sharing data in a distributed file system
 #### <ins>Web3</ins> is an idea for a new iteration of the World Wide Web based on blockchain technology, which incorporates concepts including decentralization and token-based economics.
 
-##Landing Page
+## Landing Page
 
 ![Screenshot (419)](https://user-images.githubusercontent.com/71037507/189530359-3e038cdf-f7cd-4556-a12b-e96ae8f66cae.png)
-##Campaign
+## Campaign
 ![Screenshot (420)](https://user-images.githubusercontent.com/71037507/189530395-f48db238-f3d2-441b-a598-47de442936ec.png)
 ![Screenshot (423)](https://user-images.githubusercontent.com/71037507/189530404-be5ec2c7-c0c5-48af-b239-b5d3a26ee790.png)
-##Login
+## Login
 ![Screenshot (421)](https://user-images.githubusercontent.com/71037507/189530409-9b558ff1-40f0-4937-a510-f0ea6e53470f.png)
 ![Screenshot (422)](https://user-images.githubusercontent.com/71037507/189530412-5050904f-6007-447b-8411-13d6a43a2e5e.png)
-##Dasboard
+## Dasboard
 ![Screenshot (424)](https://user-images.githubusercontent.com/71037507/189530418-b590686a-866e-478a-b451-ca26495d4cab.png)
 ![Screenshot (425)](https://user-images.githubusercontent.com/71037507/189530423-07163ada-1f75-4fdf-8484-4ca58ce689f1.png)
