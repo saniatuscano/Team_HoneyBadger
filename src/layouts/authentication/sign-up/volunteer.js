@@ -67,17 +67,12 @@ function Volunteer(){
 
  const onSubmit = async(e) => {
   e.preventDefault()
-  // console.log(name)
-  // console.log(email)
-  // console.log(phone)
-  // console.log(lat)
-  // console.log(lon)
-  // console.log(add)
+
 
   const newObj = {
     name, email,phoneno : phone, password
   }
-  const res = await axios.post('http://localhost:7000/registerVolunteer',newObj)
+  
   console.log(res)
  if(res.data.status){ 
   console.log()

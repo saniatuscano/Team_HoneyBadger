@@ -1,0 +1,126 @@
+{
+  "contractName": "MainChain",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/odisha-frontend/Team_HoneyBadger/contracts/disasterChain.sol\":\"MainChain\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/odisha-frontend/Team_HoneyBadger/contracts/disasterChain.sol\":{\"keccak256\":\"0x0c7b0f1de88a4a99fc04e5f6c02258f853a2ff21f4203c6b5cdf78cf173720df\",\"urls\":[\"bzz-raw://f5470fedc595bf9127456925aca62eff6d42e32103e4ee89cbb357e730eba94f\",\"dweb:/ipfs/QmXhWktPgZsmgKG6X3hDsYssDzo54j9oZuwGdEyqofY4AC\"]},\"/D/odisha-frontend/Team_HoneyBadger/contracts/disasterProduct.sol\":{\"keccak256\":\"0xe7e0e486d7305d1d71960f82e4c93e808382f4b5c36f85d6f1e5d7f3a7abdbe7\",\"urls\":[\"bzz-raw://065026cfe1fb602588c56bda244e345d766e852f167d070ad6dd08420d226162\",\"dweb:/ipfs/QmS6Kk1D5VS3akyHcspW1cczRPNrFnJUmuHpsTx84YoU7t\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820231c2d4f39ccb9614d4b02e3c2e040989480f13ca90cffb4fcfde70a4537f4d464736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820231c2d4f39ccb9614d4b02e3c2e040989480f13ca90cffb4fcfde70a4537f4d464736f6c63430005100032",
+  "sourceMap": "60:2299:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;60:2299:1;;;;;;;",
+  "deployedSourceMap": "60:2299:1:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\nimport './disasterProduct.sol';\r\n\r\ncontract MainChain {\r\n//     uint256 public userId = 0;\r\n\r\n//     // struct UserAuth {\r\n//     //     address publicAddress;\r\n//     //     string role;\r\n//     // }\r\n\r\n//     // mapping(uint256 => UserAuth) public Users;\r\n//     mapping(address => address[]) public individualChains;\r\n//     address[] public deployedChain;\r\n\r\n//     function createChain(string memory _description, uint budget) public payable {\r\n//         address newChain = payable(new Product(_description, budget,  msg.sender));\r\n//         address (newChain).transfer(msg.value);\r\n//         deployedChain.push(newChain);\r\n//         individualChains[  msg.sender].push(newChain);\r\n//     }\r\n\r\n//     function getDeployedChains() public view returns (address[] memory) {\r\n//         return deployedChain;\r\n//     }\r\n//     function getOwnChains(address _publicAddress) public view returns (address[] memory) {\r\n//         return individualChains[_publicAddress];\r\n//     }\r\n\r\n//     // event userCreated(UserAuth user);\r\n//     // function isRegistered(address _publicAddress)\r\n//     //     public\r\n//     //     view\r\n//     //     returns (uint256[2] memory)\r\n//     // {\r\n//     //     uint256[2] memory result = [uint256(0), uint256(0)];\r\n//     //     for (uint256 i = 0; i < userId; i++) {\r\n//     //         if (_publicAddress == Users[i].publicAddress) {\r\n//     //             result[0] = 1;\r\n//     //             result[1] = i;\r\n//     //             return result;\r\n//     //         }\r\n//     //     }\r\n//     //     return result;\r\n//     // }\r\n\r\n//     // function checkUser(address _publicAddress) public view returns (string) {\r\n//     //     require((isRegistered(_publicAddress))[0] == 1, \"User not registered!\");\r\n//     //     for (uint256 i = 0; i < userId; i++) {\r\n//     //         if (_publicAddress == Users[i].publicAddress) {\r\n//     //             return Users[i].role;\r\n//     //         }\r\n//     //     }\r\n//     // }\r\n\r\n//     // function createUser(string memory role) public {\r\n//     //     require((isRegistered(msg.sender))[0] == 0, \"User already registered!\");\r\n//     //     // User user = new User(userId, name, msg.sender);\r\n//     //     Users[userId] = UserAuth(msg.sender, role);\r\n//     //     // emit userCreated(Users[userId]);\r\n//     //     userId++;\r\n//     // }\r\n\r\n    \r\n}\r\n\r\n",
+  "sourcePath": "D:/odisha-frontend/Team_HoneyBadger/contracts/disasterChain.sol",
+  "ast": {
+    "absolutePath": "/D/odisha-frontend/Team_HoneyBadger/contracts/disasterChain.sol",
+    "exportedSymbols": {
+      "MainChain": [
+        546
+      ]
+    },
+    "id": 547,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 544,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "/D/odisha-frontend/Team_HoneyBadger/contracts/disasterProduct.sol",
+        "file": "./disasterProduct.sol",
+        "id": 545,
+        "nodeType": "ImportDirective",
+        "scope": 547,
+        "sourceUnit": 550,
+        "src": "25:31:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 546,
+        "linearizedBaseContracts": [
+          546
+        ],
+        "name": "MainChain",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 547,
+        "src": "60:2299:1"
+      }
+    ],
+    "src": "0:2363:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/odisha-frontend/Team_HoneyBadger/contracts/disasterChain.sol",
+    "exportedSymbols": {
+      "MainChain": [
+        546
+      ]
+    },
+    "id": 547,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 544,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "/D/odisha-frontend/Team_HoneyBadger/contracts/disasterProduct.sol",
+        "file": "./disasterProduct.sol",
+        "id": 545,
+        "nodeType": "ImportDirective",
+        "scope": 547,
+        "sourceUnit": 550,
+        "src": "25:31:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 546,
+        "linearizedBaseContracts": [
+          546
+        ],
+        "name": "MainChain",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 547,
+        "src": "60:2299:1"
+      }
+    ],
+    "src": "0:2363:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2022-09-11T06:22:52.019Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

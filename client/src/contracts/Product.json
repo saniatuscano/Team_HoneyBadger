@@ -1,0 +1,104 @@
+{
+  "contractName": "Product",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/odisha-frontend/Team_HoneyBadger/contracts/disasterProduct.sol\":\"Product\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/odisha-frontend/Team_HoneyBadger/contracts/disasterProduct.sol\":{\"keccak256\":\"0xe7e0e486d7305d1d71960f82e4c93e808382f4b5c36f85d6f1e5d7f3a7abdbe7\",\"urls\":[\"bzz-raw://065026cfe1fb602588c56bda244e345d766e852f167d070ad6dd08420d226162\",\"dweb:/ipfs/QmS6Kk1D5VS3akyHcspW1cczRPNrFnJUmuHpsTx84YoU7t\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820154396c7e00bfe0621c912a7d3c4616057b3bfea925645831c4b6ce9a83e1fee64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820154396c7e00bfe0621c912a7d3c4616057b3bfea925645831c4b6ce9a83e1fee64736f6c63430005100032",
+  "sourceMap": "27:2308:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:2308:2;;;;;;;",
+  "deployedSourceMap": "27:2308:2:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract Product {\r\n\r\n//     struct detail{\r\n\r\n//         address manager;\r\n//         uint costOfProduct;\r\n//         string description;\r\n//         mapping(address => bool) buyers;\r\n//         uint256 buyerCount;\r\n//         address ngo;\r\n//         address payable shopkeeper;\r\n//         address volunteer;\r\n//         string status;\r\n//         uint256 time;\r\n//     }\r\n//     detail public product;\r\n\r\n//     modifier restricted() {\r\n//         require(msg.sender == product.manager);\r\n//         _;\r\n//     }\r\n\r\n//     constructor(string memory _description, uint budget, address creator) public {\r\n//         product.manager = creator;\r\n//         product.costOfProduct = budget;\r\n//         product.description = _description;\r\n//         product.time = block.timestamp;\r\n//         product.ngo = creator;\r\n//         product.status = \"created\";\r\n//     }\r\n// //     function() payable{\r\n// // }\r\n//     function setShopkeeper(address payable _address) payable public  {\r\n//         product.shopkeeper = _address;\r\n//     }\r\n//     function setVolunteer(address _address) public {\r\n//         product.volunteer = _address;\r\n//     }\r\n//     function updateStatus(string memory status) public {\r\n//         product.status = status;\r\n//         product.time = now;\r\n//     }\r\n\r\n//     function acceptOrder() public {\r\n//         updateStatus(\"accepted\");\r\n//         setShopkeeper(msg.sender);\r\n//     }\r\n\r\n//     function buy() public {\r\n//         require(keccak256(abi.encodePacked((product.status))) == keccak256(abi.encodePacked((\"shipped\"))), \"Status incorrect!\");\r\n//         // require(msg.value >= product.costOfProduct, \"Value incorrect\");\r\n        \r\n//         product.shopkeeper.transfer(address(this).balance);\r\n//         setVolunteer(msg.sender);\r\n//         // product.buyers[msg.sender] = true;\r\n//         // product.buyerCount++;\r\n//     }\r\n//     function getSummary()\r\n//         public\r\n//         view\r\n        \r\n//         returns (\r\n//             address, uint256, string memory , uint256, address, address, address, string memory, uint256\r\n            \r\n//         )\r\n//     {\r\n//         return (product.manager, product.costOfProduct, product.description, product.buyerCount, product.ngo, product.shopkeeper, product.volunteer, product.status, product.time);\r\n//     }\r\n}\r\n",
+  "sourcePath": "D:\\odisha-frontend\\Team_HoneyBadger\\contracts\\disasterProduct.sol",
+  "ast": {
+    "absolutePath": "/D/odisha-frontend/Team_HoneyBadger/contracts/disasterProduct.sol",
+    "exportedSymbols": {
+      "Product": [
+        549
+      ]
+    },
+    "id": 550,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 548,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 549,
+        "linearizedBaseContracts": [
+          549
+        ],
+        "name": "Product",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 550,
+        "src": "27:2308:2"
+      }
+    ],
+    "src": "0:2337:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/odisha-frontend/Team_HoneyBadger/contracts/disasterProduct.sol",
+    "exportedSymbols": {
+      "Product": [
+        549
+      ]
+    },
+    "id": 550,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 548,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 549,
+        "linearizedBaseContracts": [
+          549
+        ],
+        "name": "Product",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 550,
+        "src": "27:2308:2"
+      }
+    ],
+    "src": "0:2337:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2022-09-11T06:25:48.580Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
