@@ -2,9 +2,9 @@
 
 ## HackOdisha 2.0
 
-(Note : 'sakshi' is our main branch. Due to time constraints we forgot to merge the branch into master)
+(Note : 'sakshi' is our main branch. Due to time constraints we could not merge the branch into master)
 
-We have also deployed our project on hedera(check 'kirti' branch for deployment). 
+We have also deployed our project on <b>HEDERA</b>(check 'kirti' branch for deployment). 
 
 <a href="https://www.canva.com/design/DAFL4ws390g/Mxdw9iMu_W43r7w4MDiMig/view?utm_content=DAFL4ws390g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">CLICK TO VIEW PPT</a><br/>
 
